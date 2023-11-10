@@ -1,9 +1,9 @@
 # Seminários: Ferramentas de Desenvolvimento
 
 
-**Data: 14/11/2022**
+**Data: 24/11**
 
-**Valor: 12 pontos**
+**Valor: 10 pontos**
 
 **Grupo: 5 alunos**
 
