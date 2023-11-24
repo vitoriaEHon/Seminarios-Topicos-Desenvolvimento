@@ -68,3 +68,7 @@ O Svelte é um compilador utilizado para construir interfaces web, assim como Re
 Angularjs
 Linguagem: Javascript
 AngularJS é um framework JavaScript de código aberto adequado para desenvolvimento web front-end. Assim como o Angular foi desenvolvido pela Google. Sua intenção é facilitar o desenvolvimento de aplicativos de página única. [Em vez de permitir que um servidor da Web carregue novas páginas inteiras, SPAs (aplicações de página única) interagem com o usuário reescrevendo dinamicamente os dados, buscando o mesmo do servidor da Web].
+
+<h3>Projeto</h3>
+<img src="https://github.com/vitoriaEHon/Seminarios-Topicos-Desenvolvimento/assets/104570130/243d668f-62a9-4117-8224-37278c858635" height="150">
+<img src="https://github.com/vitoriaEHon/Seminarios-Topicos-Desenvolvimento/assets/104570130/bf66b394-0adf-4bb9-b05c-7c7f85a65a7d" height="150">
