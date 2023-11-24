@@ -58,7 +58,7 @@ Estes são os passos básicos para instalar e criar um projeto Angular, agora é
 
 Ao criar-se um projeto Angular a partir do Angular CLI, haverá diversos diretórios diferentes dentro dele, sendo o principal deles o diretório src, onde ficarão a maioria dos arquivos que compõem o seu aplicativo. A partir disso, é possível construir a sua aplicação em Angular, que terá uma grande vantagem em relação a uma aplicação em puro Javascript, pois, facilitará a criação de Single Page Applications (SPA).
 No mundo real, essa é a principal funcionalidade de se criar uma aplicação com a utilização de frameworks como o Angular, pois, além de facilitarem o desenvolvimento de SPAs, já que não é necessário programar todas as funcionalidades que as compõem, fazem com que o usuário tenha uma melhor experiência enquanto usa a página, pois, a velocidade e fluidez com que as informações são modificadas, devido ao fato de as informações já estarem na máquina do usuário e o navegador estar só se adequando às novas circunstâncias nas quais as informações são requisitadas, fazem com que a pessoa que utiliza a página tenha uma experiência muito melhor do que se o Angular não estivesse sendo utilizado. 
-Para demonstrar como o Angular pode ser utilizado no mundo real, uma simples função de busca em uma página de um PetShop fictício foi desenvolvida pelo grupo: link_do_github.com
+Para demonstrar como o Angular pode ser utilizado no mundo real, uma simples função de busca em uma página de um PetShop fictício foi desenvolvida pelo grupo: https://github.com/anniecom/angular 
 
 <h3>Ferramentas similares</h3>
 
