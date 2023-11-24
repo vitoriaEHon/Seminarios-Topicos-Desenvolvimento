@@ -1,9 +1,8 @@
 
 #   Tecnologias de Desenvolvimento Frontend
-#   Angular (https://angular.io/) 
+##   Angular (https://angular.io/) 
 
 Introdução
-
 <div align="center"> O que é o Angular? O Angular é um framework de código-fonte aberto e front-end baseado em TypeScript desenvolvido pelo Google com objetivo de aprimorar o processo de criação de aplicativos web.  O Angular é o upgrade do AngularJS.
 Qual problema o desenvolvedor pode enfrentar na criação de um app web? Quando as pessoas criam aplicativos para a internet que são bem complicados, elas têm que enfrentar muitos problemas. Coisas como guardar informações importantes, fazer com que os botões e coisas na tela funcionem direitinho, fazer o site mudar de página sem carregar tudo de novo e fazer com que coisas aconteçam na hora certa, mesmo que aconteçam ao mesmo tempo. 
 Como o Angular busca amenizar este problema? O Angular é uma ferramenta que permite dividir o aplicativo em pedacinhos, com uma arquitetura baseada em componentes, que são fáceis de entender e usar de novo em outras partes. 
