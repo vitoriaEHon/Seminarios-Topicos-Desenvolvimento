@@ -1,9 +1,10 @@
-<div align="center"> #   Tecnologias de Desenvolvimento Frontend
-#   Angular (https://angular.io/) </div>
+
+#   Tecnologias de Desenvolvimento Frontend
+#   Angular (https://angular.io/) 
 
 Introdução
 
-O que é o Angular? O Angular é um framework de código-fonte aberto e front-end baseado em TypeScript desenvolvido pelo Google com objetivo de aprimorar o processo de criação de aplicativos web.  O Angular é o upgrade do AngularJS.
+<div align="center"> O que é o Angular? O Angular é um framework de código-fonte aberto e front-end baseado em TypeScript desenvolvido pelo Google com objetivo de aprimorar o processo de criação de aplicativos web.  O Angular é o upgrade do AngularJS.
 Qual problema o desenvolvedor pode enfrentar na criação de um app web? Quando as pessoas criam aplicativos para a internet que são bem complicados, elas têm que enfrentar muitos problemas. Coisas como guardar informações importantes, fazer com que os botões e coisas na tela funcionem direitinho, fazer o site mudar de página sem carregar tudo de novo e fazer com que coisas aconteçam na hora certa, mesmo que aconteçam ao mesmo tempo. 
 Como o Angular busca amenizar este problema? O Angular é uma ferramenta que permite dividir o aplicativo em pedacinhos, com uma arquitetura baseada em componentes, que são fáceis de entender e usar de novo em outras partes. 
 Ele permite que o usuário use HTML estendido (conhecido como Angular HTML), agiliza o desenvolvimento e torna a estrutura mais compreensível para os desenvolvedores. Além disso, recursos como o Angular CLI (Command Line Interface) facilitam a configuração inicial do projeto, o gerenciamento de dependências e a criação de componentes, agilizando o processo de desenvolvimento. Outro diferencial do Angular são as diretivas (instruções) que tornam seu uso mais simples e rápido. Alguns exemplos de diretivas: 
@@ -12,6 +13,7 @@ ngStyle: usada para definir estilos CSS dinamicamente com base em valores no com
 ngModel: é usada para estabelecer ligação bidirecional entre um elemento de entrada de formulário HTML e uma propriedade do componente.
 ngIf: esta diretiva permite que você mostre ou oculte um elemento com base em uma condição;
 ngFor: usada para repetir elementos com base em uma coleção de dados.
+</div>
 
 
 Instalação & Configuração
