@@ -1,5 +1,5 @@
-Tecnologias de Desenvolvimento Frontend
-Angular (https://angular.io/)
+<div align="center"> #   Tecnologias de Desenvolvimento Frontend
+#   Angular (https://angular.io/) </div>
 
 Introdução
 
