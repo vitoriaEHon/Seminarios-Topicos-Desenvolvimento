@@ -1,0 +1,16 @@
+h1,strong{
+    color: white
+}
+
+strong{
+    font-weight: 800;
+}
+h1{
+    font-weight: 600;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
