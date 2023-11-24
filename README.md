@@ -1,80 +1,69 @@
-# Seminários: Ferramentas de Desenvolvimento
+Tecnologias de Desenvolvimento Frontend
+Angular (https://angular.io/)
+
+Introdução
+
+O que é o Angular? O Angular é um framework de código-fonte aberto e front-end baseado em TypeScript desenvolvido pelo Google com objetivo de aprimorar o processo de criação de aplicativos web.  O Angular é o upgrade do AngularJS.
+Qual problema o desenvolvedor pode enfrentar na criação de um app web? Quando as pessoas criam aplicativos para a internet que são bem complicados, elas têm que enfrentar muitos problemas. Coisas como guardar informações importantes, fazer com que os botões e coisas na tela funcionem direitinho, fazer o site mudar de página sem carregar tudo de novo e fazer com que coisas aconteçam na hora certa, mesmo que aconteçam ao mesmo tempo. 
+Como o Angular busca amenizar este problema? O Angular é uma ferramenta que permite dividir o aplicativo em pedacinhos, com uma arquitetura baseada em componentes, que são fáceis de entender e usar de novo em outras partes. 
+Ele permite que o usuário use HTML estendido (conhecido como Angular HTML), agiliza o desenvolvimento e torna a estrutura mais compreensível para os desenvolvedores. Além disso, recursos como o Angular CLI (Command Line Interface) facilitam a configuração inicial do projeto, o gerenciamento de dependências e a criação de componentes, agilizando o processo de desenvolvimento. Outro diferencial do Angular são as diretivas (instruções) que tornam seu uso mais simples e rápido. Alguns exemplos de diretivas: 
+ngClass: permite adicionar ou remover classes CSS com base em uma condição;
+ngStyle: usada para definir estilos CSS dinamicamente com base em valores no componente;
+ngModel: é usada para estabelecer ligação bidirecional entre um elemento de entrada de formulário HTML e uma propriedade do componente.
+ngIf: esta diretiva permite que você mostre ou oculte um elemento com base em uma condição;
+ngFor: usada para repetir elementos com base em uma coleção de dados.
 
 
-**Data: 24/11**
+Instalação & Configuração
 
-**Valor: 10 pontos**
+Obs: Para instalar o Angular é necessário que o node.js esteja instalado. 
+Passo a passo:
 
-**Grupo: 5 alunos**
+Windows:
+Baixe o instalador no site https://nodejs.org/ e execute o instalador.
 
----
+Linux:
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
 
-Esse seminários tem como objetivo apresentar aos colegas de turma as ferramentas existentes para o desenvolvimento de sistemas web. 
-Para isso seu grupo deverá realizar uma pesquisa sobre um dos temas propostos e elaborar uma apresentação sobre o tema escolhido.
+MacOS:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install node
 
-O trabalho de seu grupo deverá ser dividido em duas partes: Roteiro e Apresentação
+Em seguida, abra o terminal e execute:
 
-## Roteiro
+1. Instalar o Angular CLI globalmente:
+   npm install -g @angular/cli
 
-O roteiro deverá ser composto de um arquivo `README.md` descrevendo o tópico selecionado. Seu roteiro deverá ter, **obrigatóriamente**, as seguintes seções:
+2. Criar um novo projeto Angular:
+   ng new nome-do-projeto
+   
+3. Navegar para o diretório do projeto:
+   cd nome-do-projeto
+   
+4. Iniciar o servidor de desenvolvimento:
+   ng serve
+   
+5. Acesse o aplicativo no navegador:
+   Abra o navegador e vá para http://localhost:4200/ 
 
-1. **Introdução:** Essa seção deverá introduzir os conceitos do assunto que seu grupo irá abordar. Você deverá mostrar o problema e como a ferramenta se propõe a resolver esse problema.
-2. **Instalação & Configuração:** Nessa seção seu grupo deverá mostrar os passos necessários para instalar e configurar a ferramenta.
-3. **Getting Started:** Aqui seu grupo deverá elaborar um pequeno tutorial de uso exemplificando como a ferramenta poderá ser utilizada no desenvolvimento de uma aplicação web. Vocês deverão mostrar passo a passo como utilizar a ferramenta no desenvolvimento de uma aplicação web do mundo real.
-4. **Ferramentas similares:** Liste pelo menos duas ferramentas que também lidam com o tópico selecionado. Fique a vontade para referenciar ferramentas de outras linguagens (Java, C#, JavaScript, Python, Ruby, etc.). Fale resumidamente (um parágrafo) de cada uma dessas bibliotecas e referencie para sua página principal.
+6. Instale bibliotecas se necessário:
+npm install nome-da-biblioteca
 
-*OBS: Sinta-se a vontade para adicionar outras seções no documento da forma que você achar conveniente.* 
+Estes são os passos básicos para instalar e criar um projeto Angular, agora é necessário programar o conteúdo do site.
 
-## Apresentação
+Getting Started
 
-Você deverá realizar para a turma uma apresentação entre 12 e 15 minutos sobre o tópico pesquisado pelo seu grupo. 
-Sua apresentação deverá representar uma síntese do que está descrito no roteiro.
-Segue alguns critérios que serão avaliados na apresentação (lista não exaustiva):
+Ao criar-se um projeto Angular a partir do Angular CLI, haverá diversos diretórios diferentes dentro dele, sendo o principal deles o diretório src, onde ficarão a maioria dos arquivos que compõem o seu aplicativo. A partir disso, é possível construir a sua aplicação em Angular, que terá uma grande vantagem em relação a uma aplicação em puro Javascript, pois, facilitará a criação de Single Page Applications (SPA).
+No mundo real, essa é a principal funcionalidade de se criar uma aplicação com a utilização de frameworks como o Angular, pois, além de facilitarem o desenvolvimento de SPAs, já que não é necessário programar todas as funcionalidades que as compõem, fazem com que o usuário tenha uma melhor experiência enquanto usa a página, pois, a velocidade e fluidez com que as informações são modificadas, devido ao fato de as informações já estarem na máquina do usuário e o navegador estar só se adequando às novas circunstâncias nas quais as informações são requisitadas, fazem com que a pessoa que utiliza a página tenha uma experiência muito melhor do que se o Angular não estivesse sendo utilizado. 
+Para demonstrar como o Angular pode ser utilizado no mundo real, uma simples função de busca em uma página de um PetShop fictício foi desenvolvida pelo grupo: link_do_github.com
+Ferramentas similares
 
-- Tempo de apresentação
-- Organização
-- Participação individual
-- Profundidade do tema abordado
-- "Hello, world!" apresentado
+Svelte
+Linguagem: Javascript
+O Svelte é um compilador utilizado para construir interfaces web, assim como React, Angular e Vue.js. Foi criado em 2016 por Rich Harris, e tem a proposta de ser mais performático, fácil de aprender e utilizar, possuindo uma alta curva de aprendizagem, além da sintaxe simples e intuitiva. Enquanto o Angular é um framework de aplicativos, o Svelte está mais alinhado com um kit de ferramentas de interface do usuário. Embora você possa criar um aplicativo com o Svelte, você está reunindo diferentes bibliotecas, pacotes e muito mais para obter algo semelhante ao Angular.
 
-
-## Formato de Entrega
-
-Seu grupo deverá fazer um fork desse repositório. 
-Esse fork deverá conter o arquivo `README.md` referente ao roteiro escrito pelo grupo, junto dos slides que serão utilizados na apresentação.
-
-## Temas
-
-Abra uma issue no repositório indicando o tema de escolha no título da issue.
-**Não serão admitidos temas repetidos!**
-
-### Tecnologias de Desenvolvimento Frontend
-
-- Angular (https://angular.io/)
-- ReactJS (https://reactjs.org/)
-- VueJS (https://vuejs.org/)
-
-### Tecnologias de Desenvolvimento Backend
-
-- SlimPHP (https://www.slimframework.com/)
-- Laravel (https://laravel.com/)
-- CakePHP (https://cakephp.org/)
-- Symfony (https://symfony.com/)
-
-### Gerenciadores de Dependências
-
-- NPM (https://www.npmjs.com/)
-- Yarn (https://yarnpkg.com/)
-- Composer (https://getcomposer.org/)
-
-### Armazenamento & Disponibilização de Dados
-
-- MongoDB (https://www.mongodb.com/)
-- SQLite (https://www.sqlite.org/index.html)
-- Doctrine (https://www.doctrine-project.org/)
-- GraphQL (https://graphql.org/)
-
-### Ambientes Virtuais de Desenvolvimento
-
-- Docker (https://www.docker.com/)
-- Vagrant (https://www.vagrantup.com/)
+Angularjs
+Linguagem: Javascript
+AngularJS é um framework JavaScript de código aberto adequado para desenvolvimento web front-end. Assim como o Angular foi desenvolvido pela Google. Sua intenção é facilitar o desenvolvimento de aplicativos de página única. [Em vez de permitir que um servidor da Web carregue novas páginas inteiras, SPAs (aplicações de página única) interagem com o usuário reescrevendo dinamicamente os dados, buscando o mesmo do servidor da Web].
