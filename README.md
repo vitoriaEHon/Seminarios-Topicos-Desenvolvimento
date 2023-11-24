@@ -70,4 +70,5 @@ Linguagem: Javascript
 AngularJS é um framework JavaScript de código aberto adequado para desenvolvimento web front-end. Assim como o Angular foi desenvolvido pela Google. Sua intenção é facilitar o desenvolvimento de aplicativos de página única. [Em vez de permitir que um servidor da Web carregue novas páginas inteiras, SPAs (aplicações de página única) interagem com o usuário reescrevendo dinamicamente os dados, buscando o mesmo do servidor da Web].
 
 <h3>Projeto</h3>
-<img src="https://github.com/vitoriaEHon/Seminarios-Topicos-Desenvolvimento/assets/104570130/1f2a78d0-5809-4fca-a5e9-07f5921d9009">
+<img src="https://github.com/vitoriaEHon/Seminarios-Topicos-Desenvolvimento/assets/104570130/1f5645f1-fd80-4c36-b81c-dd8779de5815">
+<img src="https://github.com/vitoriaEHon/Seminarios-Topicos-Desenvolvimento/assets/104570130/a2cfa3b7-99e7-4ee1-a881-7be80203e0c8">
